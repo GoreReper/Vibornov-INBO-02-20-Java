@@ -50,6 +50,7 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return ("Color of Rectangular is " + this.color + " width is " + this.width + " length is " + this.length + " and filled is " + this.filled);
+        return ("Color of Rectangular is " + this.color +
+                " width is " + this.width + " length is " + this.length + " and filled is " + this.filled);
     }
 }

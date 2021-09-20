@@ -5,7 +5,7 @@ public abstract class Shape {
     protected boolean filled;
 
     public Shape() {
-        String color = "white";
+        String color = "WHITE";
         boolean filled = false;
     }
     public Shape(String color, boolean filled) {
@@ -25,7 +25,6 @@ public abstract class Shape {
     public void setFilled(boolean filled) {
         this.filled = filled;
     }
-
     public abstract double getArea();
     public abstract double getPerimeter();
     public abstract String toString();
